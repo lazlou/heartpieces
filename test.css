@@ -1,0 +1,65 @@
+#frame {
+	width:  100%;
+	height:  100%;
+	position:  absolute;
+}
+
+.square {
+	width:  50px;
+	height:  50px;
+	position:  relative;
+	/* https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode */
+	mix-blend-mode: difference;
+	z-index:  1000;
+}
+
+/* ------ */
+/* colors */
+
+.red {
+	background-color:  #ffcccc;
+}
+
+.blue {
+	background-color:  #0000ff;
+}
+
+/* ---------- */
+/* animations */
+
+.clockwise {
+	animation-name:  example;
+	animation-duration:  4s;
+	animation-iteration-count:  infinite;
+}
+
+.alternate {
+  	animation-direction:  alternate;
+}
+
+.alternate-reverse {
+  	animation-direction:  alternate-reverse;
+}
+
+.bg-video {
+	animation-name:  scroll;
+	animation-duration:  300s;
+	z-index:  -99999;
+}
+
+
+
+
+@keyframes example {
+  0%   {transform:  translate(0px,0px);}
+  25%  {transform:  translate(200px,0px);}
+  50%  {transform:  translate(200px,200px); width:  400px;}
+  75%  {transform:  translate(0px,200px);}
+  100% {transform:  translate(0px,0px); width:  200px;}
+}
+
+@keyframes scroll {
+  0%   {transform:  translate(0px,0px);}
+  100% {transform:  translate(0px,10000px);}
+}
+
