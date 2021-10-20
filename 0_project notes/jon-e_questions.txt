@@ -1,0 +1,27 @@
+# heartpieces project
+
+## things to add
+
+### homepage music: add pause button?
+
+### ? add scroll arrow on landing page (img 1)
+
+### text with blinking cursor (font: monospace
+
+### contains poem (see netart_2/html/poem.txt)
+#### ? possible to add button to turn off poem (if user is uninterested)
+
+
+### credits page (rolling across screen? see netart_2/html/credits)
+#### ? how would i keep credits rolling if we add turn off button for text? is it possible to keep it separate from poem?
+
+## code review
+
+### div class unnecessary? (from netart_2/html/homepage.html; also used in netart_2/html/heartpieces_test)
+
+</div>
+        <div class="music">
+     <audio src="../music/takahashi_photosynthese.mp3" autoplay loop></audio>
+        </div>
+
+

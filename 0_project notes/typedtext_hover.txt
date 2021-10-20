@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="typedtext.css">
+
+
+<!-- homepage typed text (turned off; need to figure out hover text-->
+  <!-- <div class="container">
+    <p style="font-family:monospace"><font size= 5vw> <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+  </div> -->
+
+  <script src="typedtext.js"></script>

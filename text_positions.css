@@ -1,0 +1,11 @@
+#first {
+  left:  0%;
+}
+
+#second {
+  left:  calc((100%/33));
+}
+
+#third {
+  left:  calc((100%/33)*2);
+}

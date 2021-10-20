@@ -1,0 +1,27 @@
+.container {
+	position: absolute;
+	display:  flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	gap:  30px;
+	height: 100%;
+	margin: auto;
+	overflow: hidden;
+	align-items: center;
+}
+
+.gifbox {
+	margin:  auto;
+	vertical-align: middle;
+	top: -1000px;
+}
+
+.gifbox img {
+
+	min-width:  100vw;
+	max-width:  100vw;
+	min-height:  75%;
+	max-height: 100%;
+	vertical-align: middle;
+}
+

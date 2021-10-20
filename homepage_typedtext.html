@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0"/>
+<title>whole heart</title>
+<link rel="stylesheet" href="test.css">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="homepage_typedtext.css">
+</head>
+<body onload="playAudio();">
+
+<section class="homeContainer">
+<div class="music" onclick="playAudio()">
+    <div onclick="playAudio()"></div>
+
+<!-- link to heart pieces gifs webpage -->
+    <div class="frame-home">
+        <a href="heartpieces_test.html" target="_blank">
+            <img src="../gifs/0_homescreen/homescreen_comickink.gif"  alt="passing heart pieces">
+        </a>
+    </div>
+
+<!-- typed text for title -->
+    <div class="hoverText" id="hoverHome">
+        <p style="font-family:monospace"><font size= 5vw></font><span class="typed-text" id="home-typed-text"></span><span class="cursor">&nbsp;</span>   
+        </p>
+    </div>
+</div>
+
+<!-- homepage audio -->
+    <div class="music">
+    <audio id="background-music" src="../music/takahashi_photosynthese.mp3" autoplay loop></audio>
+    </div>
+</div>
+</section>
+
+<script src="audio.js"></script>
+<script src="typedtext.js"></script>
+</body>
+</html>
